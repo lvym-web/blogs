@@ -1,0 +1,51 @@
+2020-03-01 12:46:41.890  INFO 5676 --- [restartedMain] com.lvym.BlogsApplication                : Starting BlogsApplication on king with PID 5676 (D:\Java\STSS\blogs\target\classes started by asus in D:\Java\STSS\blogs)
+2020-03-01 12:46:41.995  INFO 5676 --- [restartedMain] com.lvym.BlogsApplication                : The following profiles are active: dev
+2020-03-01 12:46:42.287  INFO 5676 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-01 12:46:42.288  INFO 5676 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-01 12:46:45.089  INFO 5676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-01 12:46:45.095  INFO 5676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-01 12:46:45.399  INFO 5676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 292ms. Found 5 repository interfaces.
+2020-03-01 12:46:45.489  INFO 5676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-01 12:46:45.496  INFO 5676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-01 12:46:45.603  INFO 5676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 100ms. Found 5 repository interfaces.
+2020-03-01 12:46:46.571  INFO 5676 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$76a85e7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-01 12:46:48.366  INFO 5676 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-01 12:46:48.437  INFO 5676 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-01 12:46:48.442  INFO 5676 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-03-01 12:46:48.469  INFO 5676 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-03-01 12:46:48.470  INFO 5676 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-03-01 12:46:48.472  INFO 5676 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-01 12:46:48.472  INFO 5676 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-01 12:46:49.543  INFO 5676 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-03-01 12:46:50.025  INFO 5676 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-01 12:46:50.029  INFO 5676 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7725 ms
+2020-03-01 12:46:50.717  INFO 5676 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-01 12:46:51.468  INFO 5676 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-01 12:46:51.692  INFO 5676 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-01 12:46:51.962  INFO 5676 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2020-03-01 12:46:51.965  INFO 5676 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-03-01 12:46:52.711  INFO 5676 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-03-01 12:46:53.385  INFO 5676 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-01 12:46:56.542  INFO 5676 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-01 12:46:56.766  INFO 5676 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-01 12:46:59.221  INFO 5676 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-03-01 12:47:01.757  INFO 5676 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-01 12:47:02.096  WARN 5676 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-01 12:47:03.068  INFO 5676 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-01 12:47:04.892  INFO 5676 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-01 12:47:04.898  INFO 5676 --- [restartedMain] com.lvym.BlogsApplication                : Started BlogsApplication in 24.717 seconds (JVM running for 26.079)
+2020-03-01 12:47:16.193  INFO 5676 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-01 12:47:16.194  INFO 5676 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-01 12:47:16.279  INFO 5676 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 85 ms
+2020-03-01 12:47:16.532  INFO 5676 --- [http-nio-8080-exec-1] com.lvym.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.lvym.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-01 12:47:16.808  WARN 5676 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-01 12:47:16.918  WARN 5676 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-01 12:47:17.056  INFO 5676 --- [http-nio-8080-exec-1] com.lvym.aspect.LogAspect                : Result : index
+2020-03-01 12:47:20.375  INFO 5676 --- [http-nio-8080-exec-4] com.lvym.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lvym.web.IndexController.newblogs', args=[{}]}
+2020-03-01 12:47:20.379  INFO 5676 --- [http-nio-8080-exec-4] com.lvym.aspect.LogAspect                : Result : _fragments :: newblogList
+2020-03-01 12:47:20.547  INFO 5676 --- [http-nio-8080-exec-7] com.lvym.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.lvym.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-01 12:47:20.588  INFO 5676 --- [http-nio-8080-exec-7] com.lvym.aspect.LogAspect                : Result : index
+2020-03-01 12:47:23.155  INFO 5676 --- [http-nio-8080-exec-3] com.lvym.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lvym.web.IndexController.newblogs', args=[{}]}
+2020-03-01 12:47:23.157  INFO 5676 --- [http-nio-8080-exec-3] com.lvym.aspect.LogAspect                : Result : _fragments :: newblogList
